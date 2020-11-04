@@ -78,7 +78,7 @@
   },
   "scripts": {
     "post": "gatsby-post-gen",
-    "dev": "gatsby develop",
+    "dev": "gatsby clean && gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
